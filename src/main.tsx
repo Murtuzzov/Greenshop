@@ -4,6 +4,12 @@ import App from "./App.tsx";
 import "./index.css";
 import { BrowserRouter } from "react-router-dom";
 import { ChakraProvider } from "@chakra-ui/react";
+import "aos/dist/aos.css"; // Импорт стилей AOS
+
+import AOS from "aos"; // Импорт AOS
+
+// Инициализация AOS
+AOS.init();
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>

@@ -1,0 +1,78 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Barberton Daisy",
+      "size": "m",
+      "category": "Potter Plants",
+      "price": "$119.00",
+      "image": "./public/images/barberton_daisy.png"
+    },
+    {
+      "id": 2,
+      "name": "Angel Wing Begonia",
+      "size": "s",
+      "category": "House Plants",
+      "price": "$169.00",
+      "image": "./public/images/begonia_plant.png"
+    },
+    {
+      "id": 3,
+      "name": "African Violet",
+      "size": "l",
+      "category": "House Plants",
+      "price": "$199.00",
+      "oldPrice": "$229.00",
+      "discount": "13% OFF",
+      "image": "./public/images/african_violet.png"
+    },
+    {
+      "id": 4,
+      "name": "Beach Spider Lily",
+      "size": "s",
+      "category": "Potter Plants",
+      "price": "$129.00",
+      "image": "./public/images/spider_lily.png"
+    },
+    {
+      "id": 5,
+      "name": "Blushing Bromeliad",
+      "size": "m",
+      "category": "Potter Plants",
+      "price": "$139.00",
+      "image": "./public/images/bromeliad_plant.png"
+    },
+    {
+      "id": 6,
+      "name": "Aluminum Plant",
+      "size": "l",
+      "category": "Potter Plants",
+      "price": "$179.00",
+      "image": "./public/images/aluminum_plant.png"
+    },
+    {
+      "id": 7,
+      "name": "Bird’s Nest Fern",
+      "size": "s",
+      "category": "House Plants",
+      "price": "$99.00",
+      "image": "./public/images/nestfern.png"
+    },
+    {
+      "id": 8,
+      "name": "Broadleaf Lady Palm",
+      "size": "m",
+      "category": "House Plants",
+      "price": "$59.00",
+      "image": "./public/images/lady_palm.png"
+    },
+    {
+      "id": 9,
+      "name": "Chinese Evergreen",
+      "size": "l",
+      "category": "Potter Plants",
+      "price": "$59.00",
+      "image": "./public/images/evergreen.png"
+    }
+  ]
+}

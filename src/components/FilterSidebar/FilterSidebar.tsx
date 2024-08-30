@@ -9,11 +9,22 @@ import {
   Text,
 } from "@chakra-ui/react";
 
-const FilterSidebar = () => {
+interface FilterSidebarProps {
+  className?: string; // className опционален
+}
+
+const FilterSidebar: React.FC<FilterSidebarProps> = ({ className }) => {
   const [value, setValue] = useState(39);
 
   return (
-    <Box width="310px" p="4">
+    <Box
+      className={className}
+      width="310px"
+      p="4"
+      display="flex"
+      flexDirection="column"
+      minHeight="calc(100vh - 64px)"
+    >
       {/* Categories */}
       <Box mb="6">
         <Text fontSize="xl" fontWeight="semibold" mb="4">
@@ -68,7 +79,7 @@ const FilterSidebar = () => {
       </Box>
 
       {/* Size */}
-      <Box>
+      <Box mb="6">
         <Text fontSize="xl" fontWeight="semibold" mb="4">
           Size
         </Text>
@@ -86,6 +97,15 @@ const FilterSidebar = () => {
             <span>(78)</span>
           </li>
         </ul>
+      </Box>
+
+      {/* Promo Image */}
+      <Box mt="12" flex="1">
+        <img
+          src="./src/assets/images/super_sale.png"
+          alt="Super Sale"
+          className="w-[280px] h-[450px]" // Изображение будет растягиваться на всю высоту и ширину контейнера
+        />
       </Box>
     </Box>
   );
