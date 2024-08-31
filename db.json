@@ -3,76 +3,170 @@
     {
       "id": 1,
       "name": "Barberton Daisy",
-      "size": "m",
+      "size": "M",
       "category": "Potter Plants",
       "price": "$119.00",
-      "image": "./public/images/barberton_daisy.png"
+      "image": "/images/barberton_daisy.png",
+      "description": "Barberton Daises are living organisms that play a key role in ecosystems and the maintenance of life on Earth. They are major health and nutritional consequences for many living things, including humans. Plants, characterized by a variety of shapes, sizes and growing conditions, can be woody, herbaceous or shrubby. Depending on the species, they can grow in different climates, from the tropics to the arctic regions. Plants also have medicinal principles and are widely used in medicine, cosmetology and cooking. They are important for maintaining biodiversity and the ecological balance of the planet."
     },
     {
       "id": 2,
       "name": "Angel Wing Begonia",
-      "size": "s",
+      "size": "S",
       "category": "House Plants",
       "price": "$169.00",
-      "image": "./public/images/begonia_plant.png"
+      "image": "/images/begonia_plant.png",
+      "description": "Angel Begonias are living organisms that play a key role in ecosystems and the maintenance of life on Earth. They are major health and nutritional consequences for many living things, including humans. Plants, characterized by a variety of shapes, sizes and growing conditions, can be woody, herbaceous or shrubby. Depending on the species, they can grow in different climates, from the tropics to the arctic regions. Plants also have medicinal principles and are widely used in medicine, cosmetology and cooking. They are important for maintaining biodiversity and the ecological balance of the planet."
     },
     {
       "id": 3,
       "name": "African Violet",
-      "size": "l",
+      "size": "L",
       "category": "House Plants",
       "price": "$199.00",
       "oldPrice": "$229.00",
       "discount": "13% OFF",
-      "image": "./public/images/african_violet.png"
+      "image": "/images/african_violet.png",
+      "description": "African Violets are living organisms that play a key role in ecosystems and the maintenance of life on Earth. They are major health and nutritional consequences for many living things, including humans. Plants, characterized by a variety of shapes, sizes and growing conditions, can be woody, herbaceous or shrubby. Depending on the species, they can grow in different climates, from the tropics to the arctic regions. Plants also have medicinal principles and are widely used in medicine, cosmetology and cooking. They are important for maintaining biodiversity and the ecological balance of the planet."
     },
     {
       "id": 4,
       "name": "Beach Spider Lily",
-      "size": "s",
+      "size": "S",
       "category": "Potter Plants",
       "price": "$129.00",
-      "image": "./public/images/spider_lily.png"
+      "image": "/images/spider_lily.png",
+      "description": "Spider Lilies are living organisms that play a key role in ecosystems and the maintenance of life on Earth. They are major health and nutritional consequences for many living things, including humans. Plants, characterized by a variety of shapes, sizes and growing conditions, can be woody, herbaceous or shrubby. Depending on the species, they can grow in different climates, from the tropics to the arctic regions. Plants also have medicinal principles and are widely used in medicine, cosmetology and cooking. They are important for maintaining biodiversity and the ecological balance of the planet."
     },
     {
       "id": 5,
       "name": "Blushing Bromeliad",
-      "size": "m",
+      "size": "M",
       "category": "Potter Plants",
       "price": "$139.00",
-      "image": "./public/images/bromeliad_plant.png"
+      "image": "/images/bromeliad_plant.png",
+      "description": "Bromeliads are living organisms that play a key role in ecosystems and the maintenance of life on Earth. They are major health and nutritional consequences for many living things, including humans. Plants, characterized by a variety of shapes, sizes and growing conditions, can be woody, herbaceous or shrubby. Depending on the species, they can grow in different climates, from the tropics to the arctic regions. Plants also have medicinal principles and are widely used in medicine, cosmetology and cooking. They are important for maintaining biodiversity and the ecological balance of the planet."
     },
     {
       "id": 6,
       "name": "Aluminum Plant",
-      "size": "l",
+      "size": "L",
       "category": "Potter Plants",
       "price": "$179.00",
-      "image": "./public/images/aluminum_plant.png"
+      "image": "/images/aluminum_plant.png",
+      "description": "Aluminum Plants are living organisms that play a key role in ecosystems and the maintenance of life on Earth. They are major health and nutritional consequences for many living things, including humans. Plants, characterized by a variety of shapes, sizes and growing conditions, can be woody, herbaceous or shrubby. Depending on the species, they can grow in different climates, from the tropics to the arctic regions. Plants also have medicinal principles and are widely used in medicine, cosmetology and cooking. They are important for maintaining biodiversity and the ecological balance of the planet."
     },
     {
       "id": 7,
       "name": "Bird’s Nest Fern",
-      "size": "s",
+      "size": "S",
       "category": "House Plants",
       "price": "$99.00",
-      "image": "./public/images/nestfern.png"
+      "image": "/images/nestfern.png",
+      "description": "Nest Ferns are living organisms that play a key role in ecosystems and the maintenance of life on Earth. They are major health and nutritional consequences for many living things, including humans. Plants, characterized by a variety of shapes, sizes and growing conditions, can be woody, herbaceous or shrubby. Depending on the species, they can grow in different climates, from the tropics to the arctic regions. Plants also have medicinal principles and are widely used in medicine, cosmetology and cooking. They are important for maintaining biodiversity and the ecological balance of the planet."
     },
     {
       "id": 8,
       "name": "Broadleaf Lady Palm",
-      "size": "m",
+      "size": "M",
       "category": "House Plants",
       "price": "$59.00",
-      "image": "./public/images/lady_palm.png"
+      "image": "/images/lady_palm.png",
+      "description": "Lady Palms are living organisms that play a key role in ecosystems and the maintenance of life on Earth. They are major health and nutritional consequences for many living things, including humans. Plants, characterized by a variety of shapes, sizes and growing conditions, can be woody, herbaceous or shrubby. Depending on the species, they can grow in different climates, from the tropics to the arctic regions. Plants also have medicinal principles and are widely used in medicine, cosmetology and cooking. They are important for maintaining biodiversity and the ecological balance of the planet."
     },
     {
       "id": 9,
       "name": "Chinese Evergreen",
-      "size": "l",
+      "size": "L",
       "category": "Potter Plants",
       "price": "$59.00",
-      "image": "./public/images/evergreen.png"
+      "image": "/images/evergreen.png",
+      "description": "Evergreens are living organisms that play a key role in ecosystems and the maintenance of life on Earth. They are major health and nutritional consequences for many living things, including humans. Plants, characterized by a variety of shapes, sizes and growing conditions, can be woody, herbaceous or shrubby. Depending on the species, they can grow in different climates, from the tropics to the arctic regions. Plants also have medicinal principles and are widely used in medicine, cosmetology and cooking. They are important for maintaining biodiversity and the ecological balance of the planet."
+    },
+    {
+      "id": 11,
+      "name": "Austrian Tropic Plant",
+      "size": "M",
+      "category": "Potter Plants",
+      "price": "$110.00",
+      "image": "/images/Austrian_tropic_plant.png",
+      "description": "Austrian Tropic Plants are living organisms that play a key role in ecosystems and the maintenance of life on Earth. They are major health and nutritional consequences for many living things, including humans. Plants, characterized by a variety of shapes, sizes and growing conditions, can be woody, herbaceous or shrubby. Depending on the species, they can grow in different climates, from the tropics to the arctic regions. Plants also have medicinal principles and are widely used in medicine, cosmetology and cooking. They are important for maintaining biodiversity and the ecological balance of the planet."
+    },
+    {
+      "id": 12,
+      "name": "Arabic cactus",
+      "size": "L",
+      "category": "House Plants",
+      "price": "$130.00",
+      "image": "/images/arabic_cactus.png",
+      "description": "Arabian cacti are living organisms that play a key role in ecosystems and the maintenance of life on Earth. They are major health and nutritional consequences for many living things, including humans. Plants, characterized by a variety of shapes, sizes and growing conditions, can be woody, herbaceous or shrubby. Depending on the species, they can grow in different climates, from the tropics to the arctic regions. Plants also have medicinal principles and are widely used in medicine, cosmetology and cooking. They are important for maintaining biodiversity and the ecological balance of the planet."
+    },
+    {
+      "id": 13,
+      "name": "Royal Ficus",
+      "size": "M",
+      "category": "Rare Plants",
+      "price": "$80.00",
+      "image": "/images/king_ficus.png",
+      "description": "Royal Ficus Plants are living organisms that play a key role in ecosystems and the maintenance of life on Earth. They are major health and nutritional consequences for many living things, including humans. Plants, characterized by a variety of shapes, sizes and growing conditions, can be woody, herbaceous or shrubby. Depending on the species, they can grow in different climates, from the tropics to the arctic regions. Plants also have medicinal principles and are widely used in medicine, cosmetology and cooking. They are important for maintaining biodiversity and the ecological balance of the planet."
+    },
+    {
+      "id": 14,
+      "name": "Three Peonies",
+      "size": "S",
+      "category": "Rare Plants",
+      "price": "$50.00",
+      "image": "/images/blue_peonis.png",
+      "description": "Peonises are living organisms that play a key role in ecosystems and the maintenance of life on Earth. They are major health and nutritional consequences for many living things, including humans. Plants, characterized by a variety of shapes, sizes and growing conditions, can be woody, herbaceous or shrubby. Depending on the species, they can grow in different climates, from the tropics to the arctic regions. Plants also have medicinal principles and are widely used in medicine, cosmetology and cooking. They are important for maintaining biodiversity and the ecological balance of the planet."
+    },
+    {
+      "id": 15,
+      "name": "Tropic Palm",
+      "size": "M",
+      "category": "Rare Plants",
+      "price": "$60.00",
+      "image": "/images/tropic_palm.png",
+      "description": "Tropic Palms are living organisms that play a key role in ecosystems and the maintenance of life on Earth. They are major health and nutritional consequences for many living things, including humans. Plants, characterized by a variety of shapes, sizes and growing conditions, can be woody, herbaceous or shrubby. Depending on the species, they can grow in different climates, from the tropics to the arctic regions. Plants also have medicinal principles and are widely used in medicine, cosmetology and cooking. They are important for maintaining biodiversity and the ecological balance of the planet."
+    },
+    {
+      "id": 16,
+      "name": "Plantain Plant",
+      "size": "L",
+      "category": "Potter Plants",
+      "price": "$75.00",
+      "image": "/images/plantain_plant.png",
+      "description": "Plantain Plants are living organisms that play a key role in ecosystems and the maintenance of life on Earth. They are major health and nutritional consequences for many living things, including humans. Plants, characterized by a variety of shapes, sizes and growing conditions, can be woody, herbaceous or shrubby. Depending on the species, they can grow in different climates, from the tropics to the arctic regions. Plants also have medicinal principles and are widely used in medicine, cosmetology and cooking. They are important for maintaining biodiversity and the ecological balance of the planet."
+    },
+    {
+      "id": 17,
+      "name": "Spruce Plant",
+      "size": "L",
+      "category": "House Plants",
+      "price": "$375.00",
+      "oldPrice": "$500.00",
+      "discount": "25% OFF",
+      "image": "/images/spruce_tree.png",
+      "description": "Spruce Plants are living organisms that play a key role in ecosystems and the maintenance of life on Earth. They are major health and nutritional consequences for many living things, including humans. Plants, characterized by a variety of shapes, sizes and growing conditions, can be woody, herbaceous or shrubby. Depending on the species, they can grow in different climates, from the tropics to the arctic regions. Plants also have medicinal principles and are widely used in medicine, cosmetology and cooking. They are important for maintaining biodiversity and the ecological balance of the planet."
+    },
+    {
+      "id": 18,
+      "name": "Pine Plant",
+      "size": "M",
+      "category": "Potter Plants",
+      "price": "$170.00",
+      "image": "/images/pine_plant.png",
+      "description": "Pine Plants are living organisms that play a key role in ecosystems and the maintenance of life on Earth. They are major health and nutritional consequences for many living things, including humans. Plants, characterized by a variety of shapes, sizes and growing conditions, can be woody, herbaceous or shrubby. Depending on the species, they can grow in different climates, from the tropics to the arctic regions. Plants also have medicinal principles and are widely used in medicine, cosmetology and cooking. They are important for maintaining biodiversity and the ecological balance of the planet."
+    },
+    {
+      "id": 19,
+      "name": "Oak Plant",
+      "size": "M",
+      "category": "House Plants",
+      "price": "$500.00",
+      "oldPrice": "$1000.00",
+      "discount": "50% OFF",
+      "image": "/images/oak_plant.png",
+      "description": "Oak Plants are living organisms that play a key role in ecosystems and the maintenance of life on Earth. They are major health and nutritional consequences for many living things, including humans. Plants, characterized by a variety of shapes, sizes and growing conditions, can be woody, herbaceous or shrubby. Depending on the species, they can grow in different climates, from the tropics to the arctic regions. Plants also have medicinal principles and are widely used in medicine, cosmetology and cooking. They are important for maintaining biodiversity and the ecological balance of the planet."
     }
   ]
 }

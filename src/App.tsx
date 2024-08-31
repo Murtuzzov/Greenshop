@@ -1,9 +1,10 @@
-import React from "react";
 import Navbar from "./components/Navbar/Navbar";
 import HeroSection from "./pages/HeroSection";
 import MainContent from "./pages/MainContent";
 import ProductDetails from "./pages/ProductDetails";
+import ShopRedirect from "./components/ShopRedirect/ShopRedirect";
 import { Route, Routes } from "react-router-dom";
+import "./App.css";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           }
         />
         <Route path="/product/:id" element={<ProductDetails />} />
+        <Route path="/shop" element={<ShopRedirect />} />
       </Routes>
     </div>
   );

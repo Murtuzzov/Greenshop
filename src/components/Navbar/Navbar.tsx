@@ -1,11 +1,28 @@
 // src/components/Navbar/Navbar.tsx
-
-import React from "react";
-import { FaSearch, FaShoppingCart } from "react-icons/fa";
+import React, { useEffect } from "react";
+import { FaSearch } from "react-icons/fa";
 import { LuLogOut } from "react-icons/lu";
-import { NavLink } from "react-router-dom";
+import { NavLink, useLocation } from "react-router-dom";
+import { useDispatch, useSelector } from "react-redux";
+import { RootState, AppDispatch } from "../../redux/store";
+import { setActiveLink } from "../../redux/slices/activeLinkSlice";
+import CartModal from "../CartModal/CartModal"; // Импортируй CartModal
 
 const Navbar: React.FC = () => {
+  const dispatch = useDispatch<AppDispatch>();
+  const location = useLocation();
+  const activeLink = useSelector(
+    (state: RootState) => state.activeLink.activeLink
+  );
+
+  useEffect(() => {
+    if (location.pathname.startsWith("/product")) {
+      dispatch(setActiveLink("/shop"));
+    } else {
+      dispatch(setActiveLink(location.pathname));
+    }
+  }, [location.pathname, dispatch]);
+
   return (
     <nav className="bg-white border-b border-gray-200 px-8">
       <div className="max-w-[1440px] mx-auto flex items-center justify-between py-4">
@@ -22,7 +39,7 @@ const Navbar: React.FC = () => {
               to="/"
               className={({ isActive }) =>
                 `text-gray-800 relative ${
-                  isActive
+                  isActive || activeLink === "/"
                     ? "font-bold after:block after:absolute after:-bottom-1 after:left-0 after:w-full after:h-[2px] after:bg-green-600"
                     : ""
                 }`
@@ -36,7 +53,7 @@ const Navbar: React.FC = () => {
               to="/shop"
               className={({ isActive }) =>
                 `text-gray-800 relative ${
-                  isActive
+                  isActive || activeLink === "/shop"
                     ? "font-bold after:block after:absolute after:-bottom-1 after:left-0 after:w-full after:h-[2px] after:bg-green-600"
                     : ""
                 }`
@@ -50,7 +67,7 @@ const Navbar: React.FC = () => {
               to="/account"
               className={({ isActive }) =>
                 `text-gray-800 relative ${
-                  isActive
+                  isActive || activeLink === "/account"
                     ? "font-bold after:block after:absolute after:-bottom-1 after:left-0 after:w-full after:h-[2px] after:bg-green-600"
                     : ""
                 }`
@@ -64,7 +81,7 @@ const Navbar: React.FC = () => {
               to="/blogs"
               className={({ isActive }) =>
                 `text-gray-800 relative ${
-                  isActive
+                  isActive || activeLink === "/blogs"
                     ? "font-bold after:block after:absolute after:-bottom-1 after:left-0 after:w-full after:h-[2px] after:bg-green-600"
                     : ""
                 }`
@@ -76,7 +93,8 @@ const Navbar: React.FC = () => {
         </ul>
         <div className="flex items-center space-x-4">
           <FaSearch className="text-gray-800 hover:text-green-600 cursor-pointer" />
-          <FaShoppingCart className="text-gray-800 hover:text-green-600 cursor-pointer" />
+          {/* Используй CartModal и передай функцию открытия через onClick */}
+          <CartModal />
           <button className="bg-green-600 text-white px-4 py-2 rounded-lg hover:bg-green-700 w-[100px] flex items-center justify-center">
             <LuLogOut className="mr-0.5" /> {/* Очень маленький отступ */}
             Login

@@ -9,8 +9,9 @@ const MainContent: React.FC = () => {
   return (
     <div className="flex flex-col">
       <div className="flex">
-        <FilterSidebar className="w-64 mr-4" /> {/* Добавил отступ */}
-        <ProductGrid className="flex-1" />
+        <FilterSidebar className="w-64 mr-4 flex-shrink-0" />{" "}
+        {/* Добавил отступ */}
+        <ProductGrid />
       </div>
 
       {/* Баннеры */}

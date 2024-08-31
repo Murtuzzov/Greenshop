@@ -1,5 +1,3 @@
-import React from "react";
-
 const Footer = () => {
   return (
     <footer className="mb-6">
@@ -57,17 +55,7 @@ const Footer = () => {
           </div>
           <div>
             <a className="text-gray-600 hover:text-green-600" href="">
-              Seeds
-            </a>
-          </div>
-          <div>
-            <a className="text-gray-600 hover:text-green-600" href="">
-              Small Plants
-            </a>
-          </div>
-          <div>
-            <a className="text-gray-600 hover:text-green-600" href="">
-              Assortment
+              Rare Plants
             </a>
           </div>
         </div>
