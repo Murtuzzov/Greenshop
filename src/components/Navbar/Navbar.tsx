@@ -80,10 +80,7 @@ const Navbar: React.FC = () => {
         </ul>
         <div className="flex items-center space-x-4">
           <CartModal />
-          <button className="bg-green-600 text-white px-4 py-2 rounded-lg hover:bg-green-700 w-[100px] flex items-center justify-center">
-            <LuLogOut className="mr-0.5" />
-            Login
-          </button>
+        
         </div>
       </div>
     </nav>
