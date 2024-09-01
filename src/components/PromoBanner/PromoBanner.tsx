@@ -1,6 +1,13 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 
 const PromoBanner: React.FC = () => {
+  const navigate = useNavigate();
+
+  const handleFindMoreClick = () => {
+    navigate("/blogs");
+  };
+
   return (
     <div className="flex gap-8 justify-center mb-8 ">
       {/* Первая карточка */}
@@ -16,7 +23,10 @@ const PromoBanner: React.FC = () => {
             We are an online plant shop offering a wide range of cheap and
             trendy plants.
           </p>
-          <button className="px-4 py-2 bg-green-500 text-white font-semibold rounded hover:bg-green-600">
+          <button
+            onClick={handleFindMoreClick}
+            className="px-4 py-2 bg-green-500 text-white font-semibold rounded hover:bg-green-600"
+          >
             Find More →
           </button>
         </div>
@@ -35,7 +45,10 @@ const PromoBanner: React.FC = () => {
             We are an online plant shop offering a wide range of cheap and
             trendy plants.
           </p>
-          <button className="px-4 py-2 bg-green-500 text-white font-semibold rounded hover:bg-green-600">
+          <button
+            onClick={handleFindMoreClick}
+            className="px-4 py-2 bg-green-500 text-white font-semibold rounded hover:bg-green-600"
+          >
             Find More →
           </button>
         </div>

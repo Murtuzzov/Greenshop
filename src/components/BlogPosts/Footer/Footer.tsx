@@ -81,21 +81,21 @@ const Footer = () => {
           <div>
             <h3 className="font-bold">We accept</h3>
             <div className="flex gap-5 items-center">
-              <a href="">
+              <a href="https://www.paypal.com/ru/home~">
                 <img
                   className="w-[60px] h-auto"
                   src="./src/assets/images/Paypal.png"
                   alt="Paypal"
                 />
               </a>
-              <a href="">
+              <a href="https://www.mastercard.com/global/en.html">
                 <img
                   className="w-[40px] h-auto"
                   src="./src/assets/images/Mastercard.png"
                   alt="Mastercard"
                 />
               </a>
-              <a href="">
+              <a href="https://usa.visa.com/">
                 <img
                   className="w-[60px] h-auto"
                   src="./src/assets/images/Visa.png"

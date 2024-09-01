@@ -1,12 +1,12 @@
 // src/components/Navbar/Navbar.tsx
 import React, { useEffect } from "react";
-import { FaSearch } from "react-icons/fa";
+
 import { LuLogOut } from "react-icons/lu";
 import { NavLink, useLocation } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
 import { RootState, AppDispatch } from "../../redux/store";
 import { setActiveLink } from "../../redux/slices/activeLinkSlice";
-import CartModal from "../CartModal/CartModal"; // Импортируй CartModal
+import CartModal from "../CartModal/CartModal";
 
 const Navbar: React.FC = () => {
   const dispatch = useDispatch<AppDispatch>();
@@ -62,20 +62,7 @@ const Navbar: React.FC = () => {
               Shop
             </NavLink>
           </li>
-          <li>
-            <NavLink
-              to="/account"
-              className={({ isActive }) =>
-                `text-gray-800 relative ${
-                  isActive || activeLink === "/account"
-                    ? "font-bold after:block after:absolute after:-bottom-1 after:left-0 after:w-full after:h-[2px] after:bg-green-600"
-                    : ""
-                }`
-              }
-            >
-              My Account
-            </NavLink>
-          </li>
+
           <li>
             <NavLink
               to="/blogs"
@@ -92,11 +79,9 @@ const Navbar: React.FC = () => {
           </li>
         </ul>
         <div className="flex items-center space-x-4">
-          <FaSearch className="text-gray-800 hover:text-green-600 cursor-pointer" />
-          {/* Используй CartModal и передай функцию открытия через onClick */}
           <CartModal />
           <button className="bg-green-600 text-white px-4 py-2 rounded-lg hover:bg-green-700 w-[100px] flex items-center justify-center">
-            <LuLogOut className="mr-0.5" /> {/* Очень маленький отступ */}
+            <LuLogOut className="mr-0.5" />
             Login
           </button>
         </div>

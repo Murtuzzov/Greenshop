@@ -39,7 +39,7 @@ const ShopRedirect: React.FC = () => {
     fetchProducts();
   }, [navigate]);
 
-  return null; // Этот компонент не отображает ничего
+  return null;
 };
 
 export default ShopRedirect;

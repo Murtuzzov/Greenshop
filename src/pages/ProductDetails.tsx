@@ -4,6 +4,7 @@ import axios from "axios";
 import { useDispatch } from "react-redux";
 import { AppDispatch } from "../redux/store";
 import { setActiveLink } from "../redux/slices/activeLinkSlice";
+import { addToCart } from "../redux/slices/cartSlice"; // Импортируем действие
 
 interface Product {
   id: number;
@@ -55,6 +56,20 @@ const ProductDetails: React.FC = () => {
     return <div>Loading...</div>;
   }
 
+  const handleAddToCart = () => {
+    if (product) {
+      dispatch(
+        addToCart({
+          id: product.id,
+          name: product.name,
+          price: product.price,
+          image: product.image,
+          quantity,
+          size: product.size[0], // Вы можете добавить выбор размера, если это нужно
+        })
+      );
+    }
+  };
   return (
     <div className="max-w-screen-lg mx-auto my-8 p-4 grid grid-cols-1 md:grid-cols-2 gap-8">
       <div className="col-span-2 mb-4">
@@ -133,7 +148,10 @@ const ProductDetails: React.FC = () => {
         )}
 
         <div className="flex space-x-4 mb-6">
-          <button className="px-6 py-3 bg-white text-green-500 border border-green-500 text-lg font-bold rounded-lg shadow-md">
+          <button
+            onClick={handleAddToCart}
+            className="px-6 py-3 bg-white text-green-500 border border-green-500 text-lg font-bold rounded-lg shadow-md"
+          >
             ADD TO CART
           </button>
           <button className="px-6 py-3 bg-white text-green-500 border border-green-500 text-lg font-bold rounded-lg shadow-md">

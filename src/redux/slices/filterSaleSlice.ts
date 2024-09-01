@@ -1,4 +1,4 @@
-// redux/slices/filterSaleSlice.ts
+
 import { createSlice, PayloadAction } from "@reduxjs/toolkit";
 
 type FilterState = "all" | "sale";

@@ -1,4 +1,3 @@
-// src/redux/slices/filterSlice.ts
 import { createSlice, PayloadAction } from "@reduxjs/toolkit";
 
 interface FilterState {
@@ -10,7 +9,7 @@ interface FilterState {
 const initialState: FilterState = {
   category: null,
   size: null,
-  price: 500, // По умолчанию максимальная цена
+  price: 500,
 };
 
 const filterSlice = createSlice({

@@ -1,4 +1,3 @@
-// src/redux/slices/activeLinkSlice.ts
 import { createSlice, PayloadAction } from "@reduxjs/toolkit";
 
 interface ActiveLinkState {

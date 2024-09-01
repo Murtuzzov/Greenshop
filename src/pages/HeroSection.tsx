@@ -1,14 +1,21 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 
 const HeroSection: React.FC = () => {
+  const navigate = useNavigate();
+
+  const handleShopNowClick = () => {
+    navigate("/shop");
+  };
+
   return (
-    <section className="bg-white ">
+    <section className="bg-white">
       <div className="max-w-[1212px] mx-auto flex gap-48 items-center justify-between px-6">
         <div className="max-w-lg">
           <h1 className="text-gray-800 text-sm uppercase mb-2 tracking-wider font-bold">
             Welcome to Greenshop
           </h1>
-          <h2 className="text-7xl font-bold text-gray-900 leading-tight  uppercase w-[700px]">
+          <h2 className="text-7xl font-bold text-gray-900 leading-tight uppercase w-[700px]">
             Let's Make a Better <span className="text-green-600">Planet</span>
           </h2>
           <p className="text-gray-600 mb-8">
@@ -16,7 +23,10 @@ const HeroSection: React.FC = () => {
             trendy plants. Use our plants to create a unique Urban Jungle. Order
             your favorite plants!
           </p>
-          <button className="bg-green-600 text-white px-6 py-3 rounded-lg hover:bg-green-700">
+          <button
+            onClick={handleShopNowClick}
+            className="bg-green-600 text-white px-6 py-3 rounded-lg hover:bg-green-700"
+          >
             Shop Now
           </button>
         </div>
